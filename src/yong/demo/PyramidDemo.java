@@ -46,20 +46,20 @@ public class PyramidDemo {
 	/**
 	 * µ¹ÐòÊä³ö
 	 */
-//	public static void fall(int n) {
-//		for (int i = 1; i <= n; i++) {
-//			for (int j = 1; j <= 2*n-1; j++) {
-//				if (j>2*n-i) {
-//					break;
-//				}
-//				if (j<=i-1) {
-//					System.out.print(' ');
-//				}
-//				if (j>i-1) {
-//					System.out.print('*');	
-//				}		
-//			}
-//			System.out.println();
-//		}
-//	}
+	public static void fall(int n) {
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= 2*n-1; j++) {
+				if (j>2*n-i) {
+					break;
+				}
+				if (j<=i-1) {
+					System.out.print(' ');
+				}
+				if (j>i-1) {
+					System.out.print('*');	
+				}		
+			}
+			System.out.println();
+		}
+	}
 }
